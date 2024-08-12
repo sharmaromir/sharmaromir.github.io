@@ -22,11 +22,16 @@ const socialLinks: {
 		link: "mailto:sharmaromir@utexas.edu",
 		name: "mdi:gmail",
 	},
+	{
+		friendlyName: "resume",
+		link: "/src/files/Romir_Sharma_Resume.pdf",
+		name: "mdi:resume",
+	},
 ];
 ---
 
 <div class="flex flex-wrap items-end gap-x-2">
-	<p>Find me on</p>
+	<p>Useful Links</p>
 	<ul class="flex flex-1 items-center gap-x-2 sm:flex-initial">
 		{
 			socialLinks.map(({ friendlyName, isWebmention, link, name }) => (
