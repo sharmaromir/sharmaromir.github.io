@@ -32,10 +32,6 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Home",
 	},
 	{
-		path: "/about/",
-		title: "About",
-	},
-	{
 		path: "/tutoring/",
 		title: "Tutoring Services",
 	},
