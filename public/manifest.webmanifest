@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Romir Sharma's Website",
+	"short_name": "Romir_Site",
+	"description": "Romir Sharma's Personal Website",
 	"icons": [
 		{
 			"src": "/192x192.png",

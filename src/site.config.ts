@@ -33,7 +33,7 @@ export const menuLinks: { path: string; title: string }[] = [
 	},
 	{
 		path: "/tutoring/",
-		title: "Tutoring Services",
+		title: "Tutoring",
 	},
 ];
 
