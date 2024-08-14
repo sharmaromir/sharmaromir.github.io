@@ -1,5 +1,7 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
+import posterImg from "@/assets/poster_img.jpg";
+import { Image } from "astro:assets";
 
 const meta = {
 	title: "Tutoring",
@@ -14,6 +16,8 @@ const meta = {
             I offer virtual and in-person tutoring for SAT prep, highschool/middle school STEM fields, 
             and olympiad math, physics, and computer science. 
 		</p>
+        
+
         <p class="mb-1 font-bold">Credentials:</p>
 
         <ul class="list-disc list-inside mb-1">
@@ -28,5 +32,13 @@ const meta = {
 			Feel free to contact me at <a href="mailto:tutoring@romirsharma.com" style="text-decoration: underline;">tutoring@romirsharma.com</a> for further information or inquiries!
             
 		</p>
+		<div class="flex justify-center">
+			<Image
+				alt="Poster for advertising"
+				fetchpriority="high"
+				loading="eager"
+				src={posterImg}
+			/>
+		</div>
 	</div>
 </PageLayout>
